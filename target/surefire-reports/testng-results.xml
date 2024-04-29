@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-19T15:21:05 IST" name="Suite" finished-at="2024-04-19T15:22:55 IST" duration-ms="109678">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1a482e36]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-19T15:21:05 IST" name="Caluate trip cost" finished-at="2024-04-19T15:22:55 IST" duration-ms="109678">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@1a482e36]" started-at="2024-04-19T15:21:05 IST" name="setUpClass" finished-at="2024-04-19T15:21:06 IST" duration-ms="981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@702cfbde]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1a482e36]" started-at="2024-04-19T15:21:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-19T15:22:03 IST" duration-ms="56474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display first three hotel details with specific filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Display hotel details with specific filters"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1a482e36]" started-at="2024-04-19T15:22:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-19T15:22:18 IST" duration-ms="15069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["getting inclusion points from the cruise line"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["cruise line"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@1a482e36]" started-at="2024-04-19T15:22:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-19T15:22:38 IST" duration-ms="19635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["capturing error message by providing invalid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["getting error messages by providing invalid details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@1a482e36]" started-at="2024-04-19T15:22:38 IST" name="tearDownClass" finished-at="2024-04-19T15:22:55 IST" duration-ms="17478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Caluate trip cost -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,707 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 17, 2024 09:39:48 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Display hotel details with specific filters</p>
+            <p class="text-sm">
+              <span>9:39:49 am</span> / <span>00:00:46:870</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Display hotel details with specific filters</h5>
+<span class='badge badge-success'>04.17.2024 9:39:49 am</span>
+<span class='badge badge-danger'>04.17.2024 9:40:36 am</span>
+<span class='badge badge-default'>00:00:46:870</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Display first three hotel details with specific filters</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.Hotels_Steps.user_open_application_with_provided_url()">
+                <span>Given user open application with provided url</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display first three hotel details with specific filters_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded1.png' src="../ScreenShot/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Hotels_Steps.user_click_on_hotels_button_and_set_the_location()">
+                <span>When user click on hotels button and set the location</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display first three hotel details with specific filters_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded2.png' src="../ScreenShot/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Hotels_Steps.select_the_checkin_and_checkout_dates()">
+                <span>And select the checkin and checkout dates</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display first three hotel details with specific filters_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded3.png' src="../ScreenShot/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Hotels_Steps.set_the_traveller_count()">
+                <span>And set the traveller count</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display first three hotel details with specific filters_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded4.png' src="../ScreenShot/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Hotels_Steps.click_on_search_hotels_button()">
+                <span>And click on search hotels button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display first three hotel details with specific filters_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded5.png' src="../ScreenShot/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Hotels_Steps.list_of_hotels_will_be_displayed()">
+                <span>Then list of hotels will be displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display first three hotel details with specific filters_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded6.png' src="../ScreenShot/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Hotels_Steps.user_sort_the_list_with_highest_user_rating()">
+                <span>When user sort the list with highest user rating</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display first three hotel details with specific filters_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded7.png' src="../ScreenShot/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Hotels_Steps.select_free_wifi_and_free_breakfast_filters()">
+                <span>And select  free wifi and free breakfast filters</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display first three hotel details with specific filters_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded8.png' src="../ScreenShot/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Hotels_Steps.select_laundry_and_swimming_pool_filters_under_amenities()">
+                <span>And select laundry  and swimming pool filters under amenities</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display first three hotel details with specific filters_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded9.png' src="../ScreenShot/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Hotels_Steps.collect_the_hotel_details_that_are_filtered()">
+                <span>Then collect the hotel details that are filtered</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>Display first three hotel details with specific filters_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded10.png' src="../ScreenShot/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">cruise line</p>
+            <p class="text-sm">
+              <span>9:40:36 am</span> / <span>00:00:20:230</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">cruise line</h5>
+<span class='badge badge-success'>04.17.2024 9:40:36 am</span>
+<span class='badge badge-danger'>04.17.2024 9:40:56 am</span>
+<span class='badge badge-default'>00:00:20:230</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="26"><span class="badge log pass-bg mr-2">Pass</span>getting inclusion points from the cruise line</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.Cruise_Steps.user_in_home_page()">
+                <span>Given user in home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>getting inclusion points from the cruise line_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded11.png' src="../ScreenShot/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Cruise_Steps.user_click_on_more_button()">
+                <span>When user click on more button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>getting inclusion points from the cruise line_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded12.png' src="../ScreenShot/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Cruise_Steps.click_on_cruise()">
+                <span>And click on cruise</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>getting inclusion points from the cruise line_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded13.png' src="../ScreenShot/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Cruise_Steps.select_first_cruise_line()">
+                <span>And select first cruise line</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>getting inclusion points from the cruise line_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded14.png' src="../ScreenShot/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Cruise_Steps.cruise_line_details_will_be_displayed()">
+                <span>Then cruise line details will be displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>getting inclusion points from the cruise line_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded15.png' src="../ScreenShot/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Cruise_Steps.get_the_inclusion_points_and_display_in_console()">
+                <span>And get the inclusion points and display in console</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>getting inclusion points from the cruise line_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded16.png' src="../ScreenShot/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Cruise_Steps.store_inclusion_points_in_excel_sheet()">
+                <span>And store inclusion points in excel sheet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>getting inclusion points from the cruise line_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded17.png' src="../ScreenShot/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="43"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getting error messages by providing invalid details</p>
+            <p class="text-sm">
+              <span>9:40:56 am</span> / <span>00:00:26:562</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getting error messages by providing invalid details</h5>
+<span class='badge badge-success'>04.17.2024 9:40:56 am</span>
+<span class='badge badge-danger'>04.17.2024 9:41:23 am</span>
+<span class='badge badge-default'>00:00:26:562</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="44"><span class="badge log pass-bg mr-2">Pass</span>capturing error message by providing invalid details</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.Gift_Voucher_Steps.user_in_gift_voucher_page()">
+                <span>Given user in gift voucher page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>capturing error message by providing invalid details_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded18.png' src="../ScreenShot/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Gift_Voucher_Steps.user_fill_corparate_quieries_form_with_invalid_phone_number()">
+                <span>When user fill corparate quieries form with invalid phone number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>capturing error message by providing invalid details_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded19.png' src="../ScreenShot/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Gift_Voucher_Steps.get_the_error_message_and_store_it_in_excel_sheet()">
+                <span>Then get the error message and store it in excel sheet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>capturing error message by providing invalid details_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded20.png' src="../ScreenShot/embedded20.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Gift_Voucher_Steps.user_fill_corparate_quieries_form_with_invalid_email_id()">
+                <span>When user fill corparate quieries form with invalid email id</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>capturing error message by providing invalid details_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded21.png' src="../ScreenShot/embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.Gift_Voucher_Steps.get_the_error_message_and_store_it_in_excel_sheet()">
+                <span>Then get the error message and store it in excel sheet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>stepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)</span>
+      <div>capturing error message by providing invalid details_Success
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../ScreenShot/embedded22.png' src="../ScreenShot/embedded22.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 17, 2024 09:39:48 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 17, 2024 09:41:23 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>3</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>3</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>44</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Display hotel details with specific filters":46.87,"cruise line":20.23,"getting error messages by providing invalid details":26.562
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 3,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 44,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
